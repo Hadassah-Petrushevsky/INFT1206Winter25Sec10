@@ -13,54 +13,54 @@
                     assignment one.
     -->
     <title>Assignment1</title>
+    <style>
+      body {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    
+      .sender-column {
+      text-align: right;
+    }
+    
+      h1 {
+      font-size: 1.5em;
+    }
+    
+      h2 {
+      font-size: 1.3em;
+    }
+    
+      p,ul,ol,dl,address {
+      font-size: 1.1em;
+    }
+    
+      p, li, dd, dt, address {
+      line-height: 1.5;
+    }
+    </style>
 </head>
-<style>
-body {
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-.sender-column {
-  text-align: right;
-}
-
-h1 {
-  font-size: 1.5em;
-}
-
-h2 {
-  font-size: 1.3em;
-}
-
-p,ul,ol,dl,address {
-  font-size: 1.1em;
-}
-
-p, li, dd, dt, address {
-  line-height: 1.5;
-}
-</style>
 <body>
     <h1>Marking up a Letter</h1>
     <hr>
     <a href="../Assignment1/index.html">Homepage Assigment</a>
     <hr>
         <p class="sender-column"><em><strong>Dr. Eleanor Gaye</strong>
-        Awesome Science faculty</br>
-        University of Awesome</br>
-        Bobtown, CA 99999,</br>
-        USA</p>
+        Awesome Science faculty<br>
+        University of Awesome<br>
+        Bobtown, CA 99999,<br>
+        USA</em></p>
         <address>
-        <p class="sender-column"><strong>Tel:</strong>123-456-7890</br>
+        <p class="sender-column"><strong>Tel:</strong>123-456-7890<br>
         <strong>Email:</strong>no_reply@example.com</p>
         </address>
         
-        <p class="sender-column">20 January 2016</p>
+        <p class="sender-column"><em>20 January 2016</em></p>
         
-        <p class="sender-column"><strong>Miss Eileen Dover</strong></br>
-        4321 Cliff Top Edge</br>
-        Dover, CT9 XXX</br>
-        UK</p></em>
+        <p class="sender-column"><em><strong>Miss Eileen Dover</strong><br>
+        4321 Cliff Top Edge<br>
+        Dover, CT9 XXX<br>
+        UK</em></p>
 
         <h1>Re: Eileen Dover university application</h1>
         
@@ -98,12 +98,14 @@ p, li, dd, dt, address {
         
         <p>Yes, you are right! As part of my post-doctorate work, I did study exotic tribal dances. To answer your question, my favourite dances are as follows, with definitions:</p>
         
+        <dl>
         <dt>Polynesian chicken dance</dt>
         <dd>A little known but very influential dance dating back as far as 300BC, a whole village would dance around in a circle like chickens, to encourage their livestock to be "fruitful".</dd>
         <dt>Icelandic brownian shuffle</dt>
         <dd>Before the Icelanders developed fire as a means of getting warm, they used to practice this dance, which involved huddling close together in a circle on the floor, and shuffling their bodies around in imperceptibly tiny, very rapid movements. One of my fellow students used to say that he thought this dance inspired modern styles such as Twerking.</dd>
         <dt>Arctic robot dance</dt>
         <dd>An interesting example of historic misinformation, English explorers in the 1960s believed to have discovered a new dance style characterized by "robotic", stilted movements, being practiced by inhabitants of Northern Alaska and Canada. Later on however it was discovered that they were just moving like this because they were really cold.</dd>
+        </dl>
         
         <p>For more of my research, see my <a target="_blank" href="http://example.com">exotic dance research page</a>.</p>
         <p>Yours sincerely,</p>
@@ -111,13 +113,13 @@ p, li, dd, dt, address {
         
         <p>University of Awesome motto: <q>Be awesome to each other.</q> <em>-- The memoirs of Bill S Preston, <abbr title="Esquire">Esq</abbr></em></p>
     <hr>
-    <footer>
-        <dl><strong>USED SITES</strong></dl>
-        <dt>Letter</dt>
-        <dd><a target="_blank" href="https://github.com/mdn/learning-area/blob/main/html/introduction-to-html/marking-up-a-letter-start/letter-text.txt">Marking up a Letter Start</a></dd>
-        <dt>CSS Code</dt>
-        <dd><a target="_blank" href="https://github.com/mdn/learning-area/blob/main/html/introduction-to-html/marking-up-a-letter-start/css.txt">Required Code</a></dd>
-    </footer>
+        <footer>
+        <p><strong>USED SITES</strong></p>
+        <p>Letter</p>
+        <p><a target="_blank" href="https://github.com/mdn/learning-area/blob/main/html/introduction-to-html/marking-up-a-letter-start/letter-text.txt">Marking up a Letter Start</a></p>
+        <p>CSS Code</p>
+        <p><a target="_blank" href="https://github.com/mdn/learning-area/blob/main/html/introduction-to-html/marking-up-a-letter-start/css.txt">Required Code</a></p>
+        </footer>
     <hr>
 </body>
 </html>
